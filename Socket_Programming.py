@@ -5,13 +5,12 @@ import argparse
 import http.server
 import socketserver
 
-
 #parser = argparse.ArgumentParser(description='Serve files from the current directory.')
 
 host_name = socket.gethostname()
 
 print(host_name)
-
+print()
 #ip = socket.gethostbyname('localhost')
 #ip = socket.gethostbyname('')
 #ip = socket.gethostbyname(host_name)
